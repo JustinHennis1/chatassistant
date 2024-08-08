@@ -4,8 +4,14 @@
 ### For Local Development
 - Download LM Studio [link](https://lmstudio.ai/)
 - (Optional) Download lms CLI tool
-- -  For Windows, Open Command Prompt and run ```bash  cmd /c %USERPROFILE%/.cache/lm-studio/bin/lms.exe bootstrap```
-- - For Linux/macOS, Open terminal and run ```bash  ~/.cache/lm-studio/bin/lms bootstrap```
+- -  For Windows, Open Command Prompt and run 
+```bash
+cmd /c %USERPROFILE%/.cache/lm-studio/bin/lms.exe bootstrap
+```
+- - For Linux/macOS, Open terminal and run 
+```bash  
+~/.cache/lm-studio/bin/lms bootstrap
+```
 
 ### Using OpenAI API Key
 - Retrieve an API key for your project from OpenAI official site
@@ -24,7 +30,7 @@ if using the CLI type
 touch  .env
 ```
 and add
-```bash OPENAI_API_KEY=<YOUR KEY HERE> ```
+```OPENAI_API_KEY=<YOUR KEY HERE> ```
 
 ## Run It!
 ```bash
